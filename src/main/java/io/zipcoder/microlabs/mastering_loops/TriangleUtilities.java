@@ -7,7 +7,7 @@ public class TriangleUtilities {
      */
     public static String getTriangle(int numberOfRows) {
         StringBuilder sb = new StringBuilder();
-        for(int i = 1; i <= numberOfRows; i++){
+        for(int i = 1; i < numberOfRows; i++){
             sb.append(getRow(i)+"\n");
         }
         return sb.toString();
@@ -28,7 +28,7 @@ public class TriangleUtilities {
      * Returns a String representation of a small triangle whose base and height is 4 asterisks
      */
     public static String getSmallTriangle() {
-        return getTriangle(4);
+        return getTriangle(5);
     }
 
     /*
