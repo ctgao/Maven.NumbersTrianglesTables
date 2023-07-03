@@ -35,33 +35,21 @@ public class NumberUtilities {
      * Return a String concatenation of all values squared between start (inclusive) and stop (exclusive)
      */
     public static String getSquareNumbers(int start, int stop, int step) {
-        StringBuilder sb = new StringBuilder();
-        for(int i = start; i < stop; i += step){
-            sb.append((int) Math.pow(i, 2));
-        }
-        return sb.toString();
+        return getExponentiations(start, stop, step, 2);
     }
 
     /*
      * Return a String concatenation of all integers between 0 up to and not including stop
      */
     public static String getRange(int stop) {
-        StringBuilder sb = new StringBuilder();
-        for(int i = 0; i < stop; i++){
-            sb.append(i);
-        }
-        return sb.toString();
+        return getRange(0, stop, 1);
     }
 
     /*
      * Return a String concatenation of all integers from start (inclusive) to stop (exclusive)
      */
     public static String getRange(int start, int stop) {
-        StringBuilder sb = new StringBuilder();
-        for(int i = start; i < stop; i++){
-            sb.append(i);
-        }
-        return sb.toString();
+        return getRange(start, stop, 1);
     }
 
     /*
