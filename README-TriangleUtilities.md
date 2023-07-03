@@ -84,7 +84,7 @@
 <br><br><br><br>
 ## `String getLargeTriangle()`
 * **Description**
-    * Write a method that returns a `String` representation of a large triangle, whose base height and base width is 10 asterisks.
+    * Write a method that returns a `String` representation of a large triangle, whose base height and base width is 9 asterisks.
     
 ### Example
 * Sample Script

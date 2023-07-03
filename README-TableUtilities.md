@@ -38,7 +38,7 @@
 <br><br><br><br>
 ## `String getSmallMultiplicationTable()`
 * **Description**
-    * Generate a `String` representation of a multiplication table whose dimensions are `4` by `4`
+    * Generate a `String` representation of a multiplication table whose dimensions are `5` by `5`
 	
 ### Example 1
 * Sample Script
@@ -57,10 +57,11 @@
 * Sample Output
 
     ```
-      1 |  2 |  3 |  4 |
-      2 |  4 |  6 |  8 |
-      3 |  6 |  9 | 12 |
-      4 |  8 | 12 | 16 |
+    1 |  2 |  3 |  4 |  5 |
+    2 |  4 |  6 |  8 | 10 |
+    3 |  6 |  9 | 12 | 15 |
+    4 |  8 | 12 | 16 | 20 |
+    5 | 10 | 15 | 20 | 25 |
     ```
 
 
@@ -105,7 +106,7 @@
 <br><br><br><br>
 ## `String getLargeMultiplicationTable()`
 * **Description**
-    * Generate a `String` representation of a multiplication table whose dimensions are `9` by `9`
+    * Generate a `String` representation of a multiplication table whose dimensions are `10` by `10`
 
 	
 ### Example
